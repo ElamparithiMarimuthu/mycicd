@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gymsvg Gym Features</title>
+</head>
+<body>
+    <h1>Gym Features:</h1>
+    <ul>
+        <% if ((boolean)request.getAttribute("before5PM")) { %>
+            <li>State-of-the-art equipment</li>
+            <li>Personal trainer available</li>
+            <li>Aerobics and yoga classes</li>
+            <!-- Add more features as needed -->
+        <% } else { %>
+            <li>Regular gym hours (5-9 am, 6-9 pm)</li>
+        <% } %>
+    </ul>
+</body>
+</html>
+

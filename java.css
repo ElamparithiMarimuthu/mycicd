@@ -1,0 +1,23 @@
+GymsvgApp
+│   pom.xml
+│
+└───src
+    ├───main
+    │   ├───java
+    │   │   └───com
+    │   │       └───gymsvg
+    │   │           ├───model
+    │   │           │       GymMember.java
+    │   │           │
+    │   │           ├───servlet
+    │   │           │       GymFeaturesServlet.java
+    │   │           │
+    │   │           └───util
+    │   │                   TimingUtil.java
+    │   │
+    │   └───webapp
+    │       │   index.jsp
+    │       │
+    │       └───WEB-INF
+    │           │   web.xml
+
