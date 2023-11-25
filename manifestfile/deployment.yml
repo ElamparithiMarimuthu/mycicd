@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devopscicd
-        image: elampari/devopscicd:replaceImageTag
+        image: elampari/devopscicd:7
         ports:
         - containerPort: 8080
